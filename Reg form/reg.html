@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta chrset="UTF 8">
+    <title>Event Registration</title>
+
+
+
+<style>
+   body {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+	 border: 3px solid #73AD21;
+}
+h3{
+align-items: center;
+}
+.form-group {
+         margin-left:60px;
+		 display: inline-block;
+         height:200px;
+		 width:200px;
+          
+		   }
+</style>
+<body  ng-app="sampleApp">
+
+  <div ng-controller="AngularController">
+
+
+  <form>
+	     <h3>personal details </h3>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Full Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"   name="Fullname" required ><b><br><br><b>&nbsp;&nbsp;&nbsp;
+       Contact Number:&nbsp;&nbsp;&nbsp;
+        <input type="text" name="cnumber" required><br><br>&nbsp;&nbsp;&nbsp;
+       
+        E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email"/><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+       
+
+        
+            <h3> Adress Details</h3>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" class="form-control" id="AdressL1" name="Adress Line1" required="" width: 500px; border: 3px solid #yellow; placeholder="Adress line 1 " /><br><br>&nbsp;&nbsp;&nbsp;
+
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" class="form-control" id="AdressL2" name="Adress Line2"  required="" {Width: 200} placeholder="Adress line 2 " /><br><br><br>&nbsp;&nbsp;&nbsp;
+		city : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>&nbsp;&nbsp;&nbsp;
+		State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>&nbsp;&nbsp;&nbsp;
+		Pincode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" required><br><br>&nbsp;&nbsp;&nbsp;
+		
+		
+		<h3>Bank details </h3>
+		
+		Account Number:&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>&nbsp;&nbsp;&nbsp;
+		IFSC code:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>&nbsp;&nbsp;&nbsp;
+		
+		
+		<h3>Document Upload</h3>
+		
+		Adhar:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"  border-style: solid;
+  border-color: red;required><br><br>&nbsp;&nbsp;&nbsp;
+		PAN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>
+		Treader License:&nbsp;&nbsp;
+        <input type="text" required><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>
+		Confirm Password:
+        <input type="text" required><br><br>&nbsp;&nbsp;&nbsp;
+		
+		<div class="form-group">
+		<button id="button1id" name="button1id" class="btn btn-success" ng-click="submitRequest()">Register</button>
+		</div>
+		<div class="form-group">
+   <button id="button2id" name="button2id" class="btn btn-default" >Reset</button>
+</div>
+		
+</body>
+</html}
