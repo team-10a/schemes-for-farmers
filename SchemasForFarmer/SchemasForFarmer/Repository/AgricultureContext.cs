@@ -1,10 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-
-// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
-// If you have enabled NRTs for your project, then un-comment the following line:
-// #nullable disable
+using SchemasForFarmer.BusinessAccessLayer;
 
 namespace SchemasForFarmer.Repository
 {
@@ -18,6 +15,8 @@ namespace SchemasForFarmer.Repository
             : base(options)
         {
         }
+
+        public DbSet<CropTypeModel> crops { get; set; }
 
         public virtual DbSet<ApplyForPolicy> ApplyForPolicy { get; set; }
         public virtual DbSet<BankDetails> BankDetails { get; set; }

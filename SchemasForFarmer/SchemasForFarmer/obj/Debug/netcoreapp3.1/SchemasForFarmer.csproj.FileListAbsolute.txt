@@ -46,7 +46,6 @@ D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\bin\Debug\netcoreapp3.1\runtimes
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\obj\Debug\netcoreapp3.1\SchemasForFarmer.csproj.AssemblyReference.cache
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\obj\Debug\netcoreapp3.1\SchemasForFarmer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\obj\Debug\netcoreapp3.1\SchemasForFarmer.AssemblyInfoInputs.cache
 D:\Work\Codes\SchemasForFarmer\SchemasForFarmer\obj\Debug\netcoreapp3.1\SchemasForFarmer.AssemblyInfo.cs
