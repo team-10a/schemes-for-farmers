@@ -1,5 +1,0 @@
-E:\VS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.SuggestedBindingRedirects.cache
-E:\VS\LoginForm\LoginForm\obj\Debug\LoginForm.Loginform.resources
-E:\VS\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
-E:\VS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
-E:\VS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
