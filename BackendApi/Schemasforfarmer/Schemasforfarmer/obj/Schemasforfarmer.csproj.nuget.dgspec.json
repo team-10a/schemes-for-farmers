@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Codes\\Schemasforfarmer\\Schemasforfarmer\\Schemasforfarmer.csproj": {}
+    "D:\\Work\\Codes\\SchemasForFarmer\\Schemasforfarmer\\Schemasforfarmer.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Codes\\Schemasforfarmer\\Schemasforfarmer\\Schemasforfarmer.csproj": {
+    "D:\\Work\\Codes\\SchemasForFarmer\\Schemasforfarmer\\Schemasforfarmer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Codes\\Schemasforfarmer\\Schemasforfarmer\\Schemasforfarmer.csproj",
+        "projectUniqueName": "D:\\Work\\Codes\\SchemasForFarmer\\Schemasforfarmer\\Schemasforfarmer.csproj",
         "projectName": "Schemasforfarmer",
-        "projectPath": "D:\\Work\\Codes\\Schemasforfarmer\\Schemasforfarmer\\Schemasforfarmer.csproj",
+        "projectPath": "D:\\Work\\Codes\\SchemasForFarmer\\Schemasforfarmer\\Schemasforfarmer.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Codes\\Schemasforfarmer\\Schemasforfarmer\\obj\\",
+        "outputPath": "D:\\Work\\Codes\\SchemasForFarmer\\Schemasforfarmer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
